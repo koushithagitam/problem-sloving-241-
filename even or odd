@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enter a value a");
+    scanf("%d",&a);
+    //true if number is divisible by by 2;
+    (a%2 =0);
+    if 
+    printf("%d is even",a);
+    else
+    printf("%d is odd",a);
+    return 0;
+}
