@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    printf("enter the value a in cm");
+    scanf("%d",&a);
+    printf("enter the value b in km");
+    scanf("%d",&b);
+    b=a*1/100000;
+    return 0;
+}
