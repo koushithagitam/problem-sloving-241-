@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    int A1, A2;
+    printf("enter the first angle of the triangle");
+    scanf("%d",&A1);
+    printf("enter the second angle of the triangle");
+    scanf("%d",&A2);
+    int total=A1+A2;
+    int A3=180-total;
+    printf("the third angle is:%d",A3); 
+    return 0;
+}
